@@ -25,6 +25,7 @@ gem 'puma', '~> 3.11'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'blueprinter'
+gem "sentry-raven"
 
 gem 'rack-cors', :require => 'rack/cors'
 
