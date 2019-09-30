@@ -6,6 +6,7 @@ class CreateGurus < ActiveRecord::Migration[5.2]
       t.string :hair
       t.json :eyes
       t.json :skin
+      t.string :group
 
       t.timestamps
     end
